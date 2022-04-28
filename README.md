@@ -10,7 +10,7 @@ with numerous PHP/JS frameworks and content management systems.
 This module requires installation with [composer](https://getcomposer.org/).
 
 ```
-composer install drupal/ray_debugger
+composer install smithsonian/ray_debugger
 ```
 
 :bulb: It's common to include a development module like this using `--require-dev` in composer, or adding the module
@@ -36,6 +36,10 @@ A module that allows you to debug Twig variables using Ray in theme/module Twig 
 ### Ray Debugger Javascript
 
 A module that allows you to debug Javascript variables using Ray in theme/module JS files.
+
+### Ray Debugger AlpineJS
+
+A module that allows you to debug [alpine.js](https://alpinejs.dev/start-here) using Ray in theme/module JS files.
 
 ## Setting up Ray
 
