@@ -1,0 +1,11 @@
+ray_alpinejs_library:
+  js:
+    https://cdn.jsdelivr.net/npm/alpinejs-ray@2/dist/standalone.min.js: { type: external, minified: true }
+  dependencies:
+    - ray_debugger/base
+
+ray_alpinejs:
+  js:
+    js/alpinejs-ray-init.js: {}
+  dependencies:
+    - ray_debugger_js/ray_alpinejs_library

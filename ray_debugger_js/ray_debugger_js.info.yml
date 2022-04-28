@@ -1,0 +1,7 @@
+name: Ray Debugger Javascript
+description: Use the Ray Debugging tool in Javascript files.
+type: module
+core_version_requirement: ^8.8.0 || ^9
+package: Development
+dependencies:
+  - drupal:ray_debugger

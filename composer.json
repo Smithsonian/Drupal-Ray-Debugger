@@ -1,6 +1,6 @@
 {
-    "name": "ray_debugger",
-    "description": "Drupal module for integrating the Ray JS, PHP, & Twig debugger",
+    "name": "drupal/ray_debugger",
+    "description": "Drupal integration for the Ray debugging tool.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -13,6 +13,9 @@
             "email": "pughe@si.edu"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.3|^8.0",
+        "spatie/ray" : "^1.34"
+    }
 }
 
