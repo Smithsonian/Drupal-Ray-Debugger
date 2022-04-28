@@ -10,7 +10,7 @@ with numerous PHP/JS frameworks and content management systems.
 This module requires installation with [composer](https://getcomposer.org/).
 
 ```
-composer install drupal/ray_debugger
+composer install smithsonian/ray_debugger
 ```
 
 :bulb: It's common to include a development module like this using `--require-dev` in composer, or adding the module
