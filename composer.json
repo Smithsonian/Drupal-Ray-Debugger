@@ -7,7 +7,12 @@
         {
             "name": "Sean Montague",
             "email": "montagues@si.edu"
+        },
+        {
+            "name": "Eric Pugh",
+            "email": "pughe@si.edu"
         }
     ],
     "require": {}
 }
+
