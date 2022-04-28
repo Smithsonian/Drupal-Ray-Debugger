@@ -13,6 +13,11 @@ This module requires installation with [composer](https://getcomposer.org/).
 composer install drupal/ray_debugger
 ```
 
+:bulb: It's common to include a development module like this using `--require-dev` in composer, or adding the module
+to Drupal's `$settings['config_exclude_modules']` setting so the module won't be installed on other environments. Keep
+in mind that leftover debug statements in the codebase might result in a fatal error without the module and dependencies
+installed
+
 ## Requirements
 
 - drupal/core 8.8 or greater
