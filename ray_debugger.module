@@ -1,0 +1,13 @@
+<?php
+function ray_debugger_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'ray_debugger/ray_debugger_js';
+//  $attachments['#attached']['html_head'][] = [
+//    [
+//      '#type' => 'html_tag',
+//      '#tag' => 'script',
+//      '#value' => 'window.ray = Ray.ray; window.Ray = Ray.Ray; ray("this is sent");',
+//    ],
+//    // A key, to make it possible to recognize this HTML  element when altering.
+//    'ray',
+//  ];
+}
