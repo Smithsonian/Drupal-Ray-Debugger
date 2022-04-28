@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\ray_debugger;
+namespace Drupal\ray_debugger_twig;
 
 use Twig\Token;
 use Twig\TokenParser\AbstractTokenParser;
-use Drupal\ray_debugger\RayNode;
+use Drupal\ray_debugger_twig\RayNode;
 
 class RayTokenParser extends AbstractTokenParser {
 
