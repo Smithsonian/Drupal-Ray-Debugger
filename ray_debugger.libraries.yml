@@ -1,5 +1,3 @@
-ray_debugger_js:
+base:
   js:
     https://cdn.jsdelivr.net/npm/axios@latest: { type: external, minified: true }
-    https://cdn.jsdelivr.net/npm/node-ray@latest/dist/standalone.js: { type: external, minified: true }
-    js/init.js: {}

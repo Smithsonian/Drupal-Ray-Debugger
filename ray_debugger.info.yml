@@ -1,7 +1,5 @@
-name: Ray Debugger Integration
-description: This Module provides libraries to enable Ray debugging.
-package: Ray Debugger
+name: Ray Debugger
+description: Integration for the Ray debugging tool.
 type: module
 core_version_requirement: ^8.8.0 || ^9
-dependencies:
-  - twig_extender
+package: Development
