@@ -37,6 +37,10 @@ A module that allows you to debug Twig variables using Ray in theme/module Twig 
 
 A module that allows you to debug Javascript variables using Ray in theme/module JS files.
 
+### Ray Debugger AlpineJS
+
+A module that allows you to debug [alpine.js](https://alpinejs.dev/start-here) using Ray in theme/module JS files.
+
 ## Setting up Ray
 
 Setup requires adding a [ray.php](https://spatie.be/docs/ray/v1/configuration/framework-agnostic-php) config file to
