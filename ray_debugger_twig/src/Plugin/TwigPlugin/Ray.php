@@ -23,6 +23,6 @@ class Ray extends TwigPluginBase {
    */
   public static function ray($data): void
   {
-    ray($data)->label('twig');
+    ray($data)->label('twig')->green();
   }
 }
