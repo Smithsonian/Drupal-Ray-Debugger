@@ -1,0 +1,11 @@
+ray_node_library:
+  js:
+    https://cdn.jsdelivr.net/npm/node-ray@latest/dist/standalone.min.js: { type: external, minified: true }
+  dependencies:
+    - ray_debugger/base
+
+ray_node:
+  js:
+    js/node-ray-init.js: {}
+  dependencies:
+    - ray_debugger_js/ray_node_library
