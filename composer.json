@@ -1,5 +1,5 @@
 {
-    "name": "drupal/ray_debugger",
+    "name": "smithsonian/ray_debugger",
     "description": "Drupal integration for the Ray debugging tool.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",

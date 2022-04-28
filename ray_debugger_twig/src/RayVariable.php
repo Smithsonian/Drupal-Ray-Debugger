@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\ray_debugger;
+namespace Drupal\ray_debugger_twig;
 
 class RayVariable {
 

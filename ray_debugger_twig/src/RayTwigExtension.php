@@ -1,5 +1,5 @@
 <?php
-namespace Drupal\ray_debugger;
+namespace Drupal\ray_debugger_twig;
 
 use Twig\Extension\AbstractExtension;
 
@@ -8,12 +8,8 @@ use Twig\TwigFunction;
 
 /**
  * Custom twig Ray Debugger.
- * )
  */
 class RayTwigExtension extends AbstractExtension {
-
-  // Public Methods
-  // =========================================================================
 
   /**
    * @inheritdoc
@@ -57,8 +53,6 @@ class RayTwigExtension extends AbstractExtension {
   public function getName() {
     return 'Ray';
   }
-
-
 
   /**
    * @inheritdoc

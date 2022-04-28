@@ -1,5 +1,0 @@
-services:
-  ray_debugger.twig.ray_twig_extension:
-    class: Drupal\ray_debugger\RayTwigExtension
-    tags:
-      - { name: twig.extension }
