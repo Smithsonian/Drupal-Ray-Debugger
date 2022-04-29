@@ -8,4 +8,4 @@ ray_alpinejs:
   js:
     js/alpinejs-ray-init.js: {}
   dependencies:
-    - ray_debugger_js/ray_alpinejs_library
+    - ray_debugger_alpinejs/ray_alpinejs_library
