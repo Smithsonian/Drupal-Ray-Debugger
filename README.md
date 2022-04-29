@@ -49,9 +49,23 @@ Example usage in node.html.twig:
 
 A module that allows you to debug Javascript variables using Ray in theme/module JS files.
 
+Example usage in a custom module javascript library:
+```js
+Drupal.behaviors.myModule = {
+  attach: function (context, settings) {
+    ray(settings);
+  }
+};
+```
+
 ### Ray Debugger AlpineJS
 
 A module that allows you to debug [alpine.js](https://alpinejs.dev/start-here) using Ray.
+
+Example usage in a Twig template:
+```twig
+<button x-on:click="$ray(message)" x-data="{ message: 'I ❤️ Debugging Alpine' }">Click me!</button>
+```
 
 ## Setting up Ray
 
