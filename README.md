@@ -81,7 +81,7 @@ services:
   appserver:
     overrides:
       extra_hosts:
-        - "host.docker.internal:host-gateway"
+        - "host.docker.internal:host-gateway" # adding "127.0.0.1 host.docker.internal" to /etc/hosts
 
 ```
 and the corresponding `ray.php` at the project root:

@@ -1,11 +1,12 @@
 <?php
-namespace Drupal\ray_debugger_twig;
+namespace Drupal\ray_debugger;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
 /**
  * Custom twig Ray Debugger.
+ * )
  */
 class RayTwigExtension extends AbstractExtension {
 
@@ -37,3 +38,4 @@ class RayTwigExtension extends AbstractExtension {
   }
 
 }
+
