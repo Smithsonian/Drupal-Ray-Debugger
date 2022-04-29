@@ -4,16 +4,11 @@ namespace Drupal\ray_debugger;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
-
-
 /**
  * Custom twig Ray Debugger.
  * )
  */
 class RayTwigExtension extends AbstractExtension {
-
-  // Public Methods
-  // =========================================================================
 
   /**
    * @inheritdoc
@@ -34,5 +29,13 @@ class RayTwigExtension extends AbstractExtension {
       }),
     ];
   }
+
+  /**
+   * @inheritdoc
+   */
+  public function getName() {
+    return 'ray_debugger.ray';
+  }
+
 }
 
