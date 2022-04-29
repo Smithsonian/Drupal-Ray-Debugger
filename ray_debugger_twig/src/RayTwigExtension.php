@@ -2,8 +2,6 @@
 namespace Drupal\ray_debugger_twig;
 
 use Twig\Extension\AbstractExtension;
-
-use Twig\TwigFilter;
 use Twig\TwigFunction;
 
 /**
@@ -31,46 +29,11 @@ class RayTwigExtension extends AbstractExtension {
     ];
   }
 
-//  public function call($name, $arguments) {
-//    if (!count($arguments)) {
-//      return ray()->$name();
-//    }
-//
-//    return ray()->$name($arguments);
-//  }
-
-//  public function getTokenParsers() {
-//    $parser = new RayTokenParser();
-//    ksm($parser);
-//    return [
-//      new RayTokenParser(),
-//    ];
-//  }
-
   /**
    * @inheritdoc
    */
   public function getName() {
-    return 'Ray';
+    return 'ray_debugger.ray';
   }
-
-  /**
-   * @inheritdoc
-   */
-//  public function getFilters() {
-//    return [
-//      new TwigFilter('ray', function ($params) {
-//        return ray_filter($params);
-//      }),
-//    ];
-//  }
-
-//  public function ray($params) {
-//    ray($params);
-//  }
-
-
-
-
 
 }

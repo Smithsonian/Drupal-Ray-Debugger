@@ -29,9 +29,21 @@ installed
 
 The base module for common libraries.
 
+Example usage in mytheme.theme file:
+```php
+function mytheme_preprocess_html(&$variables) {
+  ray($variables)->purple()->label('HTML variables');
+}
+```
+
 ### Ray Debugger Twig
 
 A module that allows you to debug Twig variables using Ray in theme/module Twig files.
+
+Example usage in node.html.twig:
+```twig
+  {{ ray(view_mode, 'label', 'The current View Mode' ) }}
+```
 
 ### Ray Debugger Javascript
 
@@ -39,7 +51,7 @@ A module that allows you to debug Javascript variables using Ray in theme/module
 
 ### Ray Debugger AlpineJS
 
-A module that allows you to debug [alpine.js](https://alpinejs.dev/start-here) using Ray in theme/module JS files.
+A module that allows you to debug [alpine.js](https://alpinejs.dev/start-here) using Ray.
 
 ## Setting up Ray
 
@@ -48,7 +60,7 @@ your project root.
 
 ### Lando
 
-If using Lando as a development environment for your Drupal project, you'll want to follow the [docker configuration docs
+If using [Lando](https://lando.dev/) as a development environment for your Drupal project, you'll want to follow the [docker configuration docs
 for Ray](https://spatie.be/docs/ray/v1/environment-specific-configuration/docker), setting up the `ray.php`
 [config](https://spatie.be/docs/ray/v1/configuration/framework-agnostic-php) file specific to your `.lando` file
 and adding `127.0.0.1 host.docker.internal` to your`/etc/hosts` file.
