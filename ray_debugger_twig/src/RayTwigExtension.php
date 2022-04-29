@@ -1,5 +1,5 @@
 <?php
-namespace Drupal\ray_debugger;
+namespace Drupal\ray_debugger_twig;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
