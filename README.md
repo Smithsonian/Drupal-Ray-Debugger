@@ -1,5 +1,7 @@
 # Drupal Ray Debugger
 
+❗This module has been moved to drupal.org: https://www.drupal.org/project/ray_debugger/
+
 A simple Drupal module for integrating the [Ray Debugging tool](https://myray.app/) for use within a Drupal project.
 Ray allows developers to debug code in PHP, Twig, Javascript, and [integrates](https://spatie.be/docs/ray/v1/installation-in-your-project/introduction)
 with numerous PHP/JS frameworks and content management systems.
